@@ -1,0 +1,33 @@
+# Define una variable de cada tipo de primitivo
+entero = 10
+flotante = 3.14
+cadena = "Hola Mundo"
+Booleano = True
+Nulo _ None
+
+# Concatena las otras variables a una variable y guarda el resultado de una variable
+resultado_cadena = (cadena + " El valor del entero es: " + str(entero) + ", el valor del flotante es: " + str(flotante) + ", el valor del booleano es: " + str(booleano) + " y el valor nulo es: " + str(nulo))
+
+
+# Límite de los enteros y flotantes en Python
+# Los enteros en Python no tienen un límite práctico, pueden ser tan grandes como la memoria del sistema lo permita.
+# El rango de valores flotantes permitidos es aproximadamente de ±1.797693e+308 a ±2.225074e-308.
+
+# Aplica la fórmula de la suma de los primeros n números pares y almacenar el resultado en una variable
+n = entero
+suma_pares = n * (n + 1) / 2
+
+# Tomar el valor de n como un número entero
+nu = 5
+n= 10 // 2
+# Calcular la suma de los primeros n números pares
+suma = n * (n + 1) 
+
+# Imprime el resultado de las tareas anteriores
+print("Entero:", entero)
+print("Flotante:", flotante)
+print("Cadena:", cadena)
+print("Booleano:", booleano)
+print("Nulo:", nulo)
+print("Resultado de la concatenación:", resultado_cadena)
+print("Suma de los primeros", nu, "números pares:", suma)
